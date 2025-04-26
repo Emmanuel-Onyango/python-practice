@@ -28,7 +28,7 @@ The following are brief explanations of my code in each of the .py files:
       for example, if one inputs Barcelona, the output will be anolecraB
 
  5.sum of elements in a list.py file
- I function that has the string whose elements are to be calculated as parameter
+ I implemented the use of a function that has the string whose elements are to be calculated as parameter
    I also implemented the use of a variable that stores the number of elements of the list
      Consequently, follows a loop through the list and count elements then store the count
       finally, return the stored count in a variable
