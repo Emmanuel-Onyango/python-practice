@@ -7,7 +7,7 @@ def string_Reversal():#function name
     else:
       store="" #variable to store the reversed string
       for x in range(len(name)-1,-1,-1):#for loop iterates the reversal of the letters based on string name and length
-        store+=name[x]#Letters are added and stored based on the index
+        store+=name[x]# Reversed Letters are added and stored based on the index number of the letter
       return store
 print(string_Reversal())
 
