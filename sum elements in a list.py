@@ -1,8 +1,4 @@
-#number_list=[1,2,3]
-#total=0
-#for x in number_list:
- #   total+=x
-#print(total)
+
 
 
 def sum_func():
