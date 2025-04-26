@@ -4,22 +4,26 @@
 The following are brief explanations of my code in each of the .py files:
 
  1.factorial.py file
+
    I implemented the use of the base case, the known output when the factorial==0 or ==1 which ==1,
     and the recursive case whether the function calls itself upto the base case.
 
 2.check if number is odd or even.py file
+
  The evenness or oddness of a number is called parity.I have passed the number whose parity is to be determined
   as a parameter followed by a simple if else statement to determine whether the number is even or odd by the use of
    modulus, which return the remainder of a number. If a number is divisible by 2, then it has no remainder, which means
     , the remainder is 0.
 
 3.sum of  digits in a number.py file
+
  Created a variable to store the sum of the digits in a number,initialized to 0,  after iterating the string type-casted
    number  using a for loop.
     I  also passed a variable for the number in the function as a parameter to allow dynamic function use based on the
      argument passed during function call.
 
 4.String reversal.py
+
  When a user inputs a  a string, there is an  if statement is  for file handling incase a user enters nothing and hits
   enter which terminates the program safely
    I then used an empty variable to store the reversed string after which I used a for loop  which iterates the reversal
@@ -28,6 +32,7 @@ The following are brief explanations of my code in each of the .py files:
       for example, if one inputs Barcelona, the output will be anolecraB
 
  5.sum of elements in a list.py file
+
  I implemented the use of a function that has the string whose elements are to be calculated as parameter
    I also implemented the use of a variable that stores the number of elements of the list
      Consequently, follows a loop through the list and count elements then store the count
@@ -36,6 +41,7 @@ The following are brief explanations of my code in each of the .py files:
         returned
  
 6.Factorial using loop.py file
+
   The function calculates the factorial of a number using a for loop. I then initialized a variable to 1 to handle the
      (number-1)factorial part
       The range in combination with the store variable ensures that
