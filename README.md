@@ -28,12 +28,13 @@ The following are brief explanations of my code in each of the .py files:
       for example, if one inputs Barcelona, the output will be anolecraB
 
  5.sum of elements in a list.py file
-  initialized a  variable to 0 to store the sum of elements in the list
-   passed the elements of the list as a parameter to allow dynamic use during function call with specific arguments
-    if the list has numbers 1,2 and 8 the output will be 11
-    for loop to iterate through the list
-     the variable stores the sum of the elements after each iteration
-
+ I function that has the string whose elements are to be calculated as parameter
+   I also implemented the use of a variable that stores the number of elements of the list
+     Consequently, follows a loop through the list and count elements then store the count
+      finally, return the stored count in a variable
+       during the function call,the elements to be counted are passed as arguments , the count is done and the output 
+        returned
+ 
 6.Factorial using loop.py file
   The function calculates the factorial of a number using a for loop. I then initialized a variable to 1 to handle the
      (number-1)factorial part
