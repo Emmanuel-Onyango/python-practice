@@ -1,10 +1,11 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+
+def sum_func(string_list):  # function that has the string whose elements are to be calculated as parameter
+    num = 0  # num variable stores the number of elements of the list, initially with 0 elements
+    for x in string_list:  # loop through the list and count the elements
+        num += 1  # stored number of elements
+    return num
 
 
-
-def sum_func(number_list):
-    total = 0 #initialized the total variable to 0 to store the sum of elements in the list
-    for x in number_list:#for loop to iterate through the list
-        total+=x # total stores the sum of the elements after each iteration
-    return total
-
-print(sum_func([1,2,8])) #output=11
+print(sum_func([1, 2, "b", 55.6, 99, "manu"]))  # output=6
