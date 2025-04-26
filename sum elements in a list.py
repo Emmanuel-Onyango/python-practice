@@ -1,13 +1,10 @@
 
 
 
-def sum_func():
-    total = 0
-    for x in number_list:
-        total+=x
-    print(f"For list{number_list}:\n Sum=",total)
+def sum_func(number_list):
+    total = 0 #initialized the total variable to 0 to store the sum of elements in the list
+    for x in number_list:#for loop to iterate through the list
+        total+=x # total stores the sum of the elements after each iteration
+    return total
 
-
-
-number_list=[1,2,3,4,]
-sum_func()
+print(sum_func([1,2,8])) #output=11
